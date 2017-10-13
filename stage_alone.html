@@ -1,0 +1,32 @@
+<head>
+
+        <title>Where Does the Bee Go? Experiment</title>
+
+
+        <meta charset="UTF-8">
+        <script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+        <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
+        <script src="https://code.createjs.com/tweenjs-0.6.2.min.js"></script>
+        <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+        <script src="task_alone.js" type="text/javascript"> </script>
+        <link rel=stylesheet href="css/bootstrap.min.css" type="text/css">
+        <link rel=stylesheet href="css/style.css" type="text/css">
+</head>
+<body onload="init();">
+
+                <center><canvas class="canvas" style="display:inline-block;" id ="canvas" width="600" height = "800"></canvas>
+
+
+                <audio id="correct" style="display:none;" controls >
+                        <source  src="Temple.ogg" type="audio/ogg" >
+                </audio>
+                <audio id="wrong" style="display:none;" controls >
+                        <source  src="Warn.ogg" type="audio/ogg" >
+                </audio>
+
+                <center><div id="questionaire">
+                        <p id="header" style="display:none;">Thank you for participating in this HIT! You did great!
+                        <input type="submit" value="Submit" id="sub" style="display:none;">
+        </div></center>
+
+</body>
